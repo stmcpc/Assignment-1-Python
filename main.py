@@ -17,10 +17,12 @@ print(myFunc(3))
 myDict = {"Silk":50, "Shag":12, "Gold":150, "Human":25}
 
 def myFunc2(l, w):
-  msqrd = l*w
+  msqrd = 1*w
+  myString = ""
   for key,value in myDict.items():
-    price = msqrd/5*value
-    print("\nA {} carpet of area {}m^2 would cost ${}".format(key,msqrd,price))
+    price = msqrd*value
+    myString = ("\nA {} carpet of area {}m^2 would cost ${}".format(key,msqrd,price))
+  return myString
 
 
 print (myFunc2(5,5))

@@ -4,8 +4,8 @@ def myFunc(size):
     myString += str(i%2)
   return myString
 
-myDict = {"Silk":50, "Shag":12, "Gold":150, "Human":25}
 
+myDict = {"Silk":50, "Shag":12, "Gold":150, "Human":25}
 def myFunc2(l, w):
   msqrd = l*w
   for key,value in myDict.items():
